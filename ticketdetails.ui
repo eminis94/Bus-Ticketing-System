@@ -1,0 +1,81 @@
+<ui version="4.0">
+ <class>TicketDetails</class>
+ <widget class="QDialog" name="TicketDetails">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ticket Details</string>
+  </property>
+  <widget class="QLabel" name="labelSource">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>360</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Source:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelDestination">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>360</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Destination:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelDate">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>360</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Date:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSeatNo">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>360</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Seat No:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="printButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>200</y>
+     <width>100</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Print Ticket</string>
+   </property>
+  </widget>
+ </widget>
+</ui>
